@@ -32,7 +32,6 @@ public class VariableTest {
 		System.out.println( (int)ch + iNum1);
 		System.out.println("'" + (char)((int)ch + iNum1) + "'");
 		
-
 	}
 
 }
