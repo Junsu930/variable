@@ -32,7 +32,7 @@ public class ScannerExample1 {
 		String input4 = input3 + sc.next(); // input3과 함께 다음에 입력한 값이 같이 저장된다.
 		System.out.println(input4);
 		
-		String defending = sc.nextLine();
+		sc.nextLine(); //nextLine이 enter입력을 받아들이는 것을 막기 위해 한 번 더 스캐너 입력
 		System.out.print("문장 입력: ");
 		String input5 = sc.nextLine();  // nextLine(); : 단어가 아닌 문장을 읽어준다.
 		System.out.println(input5);
