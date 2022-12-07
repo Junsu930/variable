@@ -1,8 +1,9 @@
-package edu.kh.variable.ex1;
+package edu.kh.variable.practice;
 
-public class VariableTest {
+public class CastingPractice1 {
 
 	public static void main(String[] args) {
+		
 		int iNum1 = 10;
 		int iNum2 = 4;
 		
@@ -28,10 +29,12 @@ public class VariableTest {
 		System.out.println( (double)iNum1 / fNum );
 		
 		System.out.println( "'" + ch + "'" );
+		System.out.printf("'%c'\n", ch);
 		System.out.println( (int)ch);
 		System.out.println( (int)ch + iNum1);
 		System.out.println("'" + (char)((int)ch + iNum1) + "'");
-		
+	
 	}
 
 }
+
